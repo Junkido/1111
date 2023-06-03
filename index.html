@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>置服的誘惑</title>
+ 
+  <style>
+   body {
+      background-color: #000000;
+      color: #FFFFFF;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .form-group input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>置服的誘惑:</h2>
+    <form id="infoForm" onsubmit="submitInfo(event)">
+      <div class="form-group">
+        <label for="occasion">場合:</label>
+        <input type="text" id="occasion" required>
+      </div>
+
+      <div class="form-group">
+        <label for="gender">性別</label>
+        <input type="text" id="gender" required>
+      </div>
+
+      <div class="form-group">
+        <label for="age">年齡:</label>
+        <input type="number" id="age" required>
+      </div>
+
+      <div class="form-group">
+        <label for="height">身高:</label>
+        <input type="number" id="height" required>
+      </div>
+	  
+	  <div class="form-group">
+        <label for="style">風格:</label>
+        <input type="text" id="風格" required>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="送去">
+      </div>
+    </form>
+  </div>
+
+  
+</body>
+</html>
